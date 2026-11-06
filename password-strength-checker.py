@@ -20,4 +20,6 @@ def main():
     # Check the length of the users password
     lengthCheck(password)
 
+    print("Checking push functionality!")
+
 main()
