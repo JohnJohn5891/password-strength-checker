@@ -10,7 +10,12 @@ def lengthCheck(password):
         print("Your password is moderately strong. It is between 8 and 14 characters.")
     else:
         print("You have a strong password! It is over 14 characters.")
-    
+
+def specialCharacters(password):
+    for x in password:
+        if x == "!" or x == "#" or x == "@" or x == "%" or x == "$":
+            print("Your password is strong, you have added special characters.")
+            break
 
 def main():
     # placeholder
@@ -20,6 +25,7 @@ def main():
     # Check the length of the users password
     lengthCheck(password)
 
-    print("Checking push functionality!")
+    # Check for special characters
+    specialCharacters(password)
 
 main()
