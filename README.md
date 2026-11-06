@@ -1,2 +1,4 @@
 # password-strength-checker
-This is software displaying my first personal project.
+Download the python files locally to run. Open code editor of choice and execute the files.
+
+This program has taught me a lot about more advanced Python concepts and the basics of GitHub.
